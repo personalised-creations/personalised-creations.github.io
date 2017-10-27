@@ -1,0 +1,51 @@
+* {
+}
+
+.contact {
+  padding:10px;
+}
+
+.contact a {
+  color:black;
+  font-size: 1.2em;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(58, 93, 151);
+}
+
+#countdown {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#lower-section {
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
+  color:black;
+}
+
+#lower-section h3{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#silver li {
+  background-color: silver;
+}
+
+ul {
+  font-size: 1.5em;
+  list-style-type:
+}
+
+@media screen and (max-width: 1200px) {
+  #lower-section h3{
+  height: auto;
+}
+  .img-thumbnail {
+    max-height: 300px;
+  }
+}
